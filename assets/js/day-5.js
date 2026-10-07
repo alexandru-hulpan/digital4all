@@ -1,10 +1,10 @@
 var images = [];
-for(let i = 1; i <= 15; i++)
-    images.push(`../../images/day-2/${i}.jpg`);
+for(let i = 1; i <= 16; i++)
+    images.push(`../../images/day-5/1 (${i}).jpg`);
 
 const container = document.getElementById("gallery-mansonry");
 
-const htmlImages = images.map((url, i) => `<div class="masonry-item" style="cursor: pointer;"><img src="${url}" alt="Day 2 Photo" class="img-fluid" id="img-${i}" data-index="${i}"></div>`).join("");
+const htmlImages = images.map((url, i) => `<div class="masonry-item" style="cursor: pointer;"><img src="${url}" alt="Day 5 Photo" class="img-fluid" id="img-${i}" data-index="${i}"></div>`).join("");
 
 container.innerHTML = htmlImages;
 

@@ -1,6 +1,6 @@
 var images = [];
 for(let i = 1; i <= 18; i++)
-    images.push(`/assets/images/day-1/${i}.jpg`);
+    images.push(`../../images/day-1/${i}.jpg`);
 
 const container = document.getElementById("gallery-mansonry");
 
